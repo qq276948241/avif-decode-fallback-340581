@@ -1,0 +1,10 @@
+node_modules/
+.scratch/
+.tmp/
+test-output/
+*.log
+# Generated on every acceptance run; keep it out of version control.
+acceptance-report.json
+# The parent repo ignores package-lock.json globally, but this side-package
+# must ship its pinned dependency lock, so re-include it explicitly.
+!package-lock.json

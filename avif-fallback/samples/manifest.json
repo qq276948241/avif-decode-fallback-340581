@@ -1,0 +1,208 @@
+{
+  "generatedAt": "deterministic",
+  "samples": [
+    {
+      "file": "samples/size-1x1.avif",
+      "bytes": 487,
+      "sha256": "6158843d7449bded54f438e2c49e2d6efa6739d7f94c5ef786dfbf8b9557727b",
+      "kind": "boundary-size",
+      "width": 1,
+      "height": 1,
+      "expectedRgbaSha256": "e03d4a01e5ab687f31fe8de38a3b3f90e90a46fd3b6e5e952beb14d42de0cc11",
+      "decodedRgbaSha256": "e03d4a01e5ab687f31fe8de38a3b3f90e90a46fd3b6e5e952beb14d42de0cc11"
+    },
+    {
+      "file": "samples/size-1x7.avif",
+      "bytes": 531,
+      "sha256": "2a502226e1bb397b2a640a55b57e9e790a0d158905187319438920e39278b19d",
+      "kind": "boundary-size",
+      "width": 1,
+      "height": 7,
+      "expectedRgbaSha256": "ffbff00c2491e7f222f43910eceac89ae0f5279ba307e77d2c940c1858ed3928",
+      "decodedRgbaSha256": "ffbff00c2491e7f222f43910eceac89ae0f5279ba307e77d2c940c1858ed3928"
+    },
+    {
+      "file": "samples/size-7x1.avif",
+      "bytes": 558,
+      "sha256": "a7b644aaa2cfecaf9e5a9ad1b3d2da3f1211c4d1c21a9bf4524a81dc3f6d28b5",
+      "kind": "boundary-size",
+      "width": 7,
+      "height": 1,
+      "expectedRgbaSha256": "1b655ec845ce953c63aa61227f9ef8432897da569703a31dde42d7650ff0127f",
+      "decodedRgbaSha256": "1b655ec845ce953c63aa61227f9ef8432897da569703a31dde42d7650ff0127f"
+    },
+    {
+      "file": "samples/size-2x2.avif",
+      "bytes": 516,
+      "sha256": "be281508bb6b48bc372bf2cfa9a89b429db359f2e7194d2ffe530dcd14d5b084",
+      "kind": "boundary-size",
+      "width": 2,
+      "height": 2,
+      "expectedRgbaSha256": "c87285365b189965ad419939bc8be064989eee1a4333daf84076905c8ff542e2",
+      "decodedRgbaSha256": "c87285365b189965ad419939bc8be064989eee1a4333daf84076905c8ff542e2"
+    },
+    {
+      "file": "samples/size-33x17.avif",
+      "bytes": 1616,
+      "sha256": "4632825dc21b81b1dd0f7d1e5bbdc2f74db0f077dbbbbaed7f6497360125e031",
+      "kind": "boundary-size",
+      "width": 33,
+      "height": 17,
+      "expectedRgbaSha256": "9e960b333f016ee7870f5d72bcaf960d45f740df2e7981f81d3097a9c1614d73",
+      "decodedRgbaSha256": "9e960b333f016ee7870f5d72bcaf960d45f740df2e7981f81d3097a9c1614d73"
+    },
+    {
+      "file": "samples/size-256x128.avif",
+      "bytes": 48594,
+      "sha256": "958c8004cd7553d6e1a8f4a798578da0b8a736a388658d4e2fb6a2091f91c61f",
+      "kind": "boundary-size",
+      "width": 256,
+      "height": 128,
+      "expectedRgbaSha256": "d69e2aba65da143cf366bd110378875162ce915f9f85b0972b6812a7248580dd",
+      "decodedRgbaSha256": "d69e2aba65da143cf366bd110378875162ce915f9f85b0972b6812a7248580dd"
+    },
+    {
+      "file": "samples/alpha-zones.avif",
+      "bytes": 617,
+      "sha256": "082124f59db4265e2073342ba4133827f79462f6dcd14122826b596ae046a635",
+      "kind": "alpha",
+      "width": 12,
+      "height": 9,
+      "expectedRgbaSha256": "0775666d1aa6dde3233b24e11615526b08b549af6e6cbb9f9bc05350b9d26eaa",
+      "decodedRgbaSha256": "0775666d1aa6dde3233b24e11615526b08b549af6e6cbb9f9bc05350b9d26eaa"
+    },
+    {
+      "file": "samples/orient-1-identity.avif",
+      "bytes": 567,
+      "sha256": "25ab1c24d072db99f4433898c997518bb72b28ba72e0cf22d95cbcb7d2cec2f0",
+      "kind": "orientation",
+      "orientation": 1,
+      "width": 8,
+      "height": 5,
+      "expectedRgbaSha256": "b5820b84481c9b61cf7df0419afa63b36c0d2c38fd79dd5f598a571a56c2087d"
+    },
+    {
+      "file": "samples/orient-2-mirror-h.avif",
+      "bytes": 577,
+      "sha256": "c1c2603b6334db8f77cce523cf3f55d3675b3d5a5a25e627075db0e9c2748055",
+      "kind": "orientation",
+      "orientation": 2,
+      "codedWidth": 8,
+      "codedHeight": 5,
+      "codedRgbaSha256": "b5820b84481c9b61cf7df0419afa63b36c0d2c38fd79dd5f598a571a56c2087d"
+    },
+    {
+      "file": "samples/orient-3-rotate-180.avif",
+      "bytes": 577,
+      "sha256": "1700896c0938d0abde4c6e0c0b183b44d360cca8f1cf56b29e813a9de5bbb9ff",
+      "kind": "orientation",
+      "orientation": 3,
+      "codedWidth": 8,
+      "codedHeight": 5,
+      "codedRgbaSha256": "b5820b84481c9b61cf7df0419afa63b36c0d2c38fd79dd5f598a571a56c2087d"
+    },
+    {
+      "file": "samples/orient-4-mirror-v.avif",
+      "bytes": 577,
+      "sha256": "6a6dacfbd6ef4e8933255dba2f406629e4495fb759a719bcd086017e67823115",
+      "kind": "orientation",
+      "orientation": 4,
+      "codedWidth": 8,
+      "codedHeight": 5,
+      "codedRgbaSha256": "b5820b84481c9b61cf7df0419afa63b36c0d2c38fd79dd5f598a571a56c2087d"
+    },
+    {
+      "file": "samples/orient-5-mirror-rotate.avif",
+      "bytes": 587,
+      "sha256": "0bb6cace17b9a898f1b656f4f585a5a82888a1d12d850741cb8912fe7d39044b",
+      "kind": "orientation",
+      "orientation": 5,
+      "codedWidth": 8,
+      "codedHeight": 5,
+      "codedRgbaSha256": "b5820b84481c9b61cf7df0419afa63b36c0d2c38fd79dd5f598a571a56c2087d"
+    },
+    {
+      "file": "samples/orient-6-rotate-90.avif",
+      "bytes": 577,
+      "sha256": "31212157bfe6b19316011072cd7882376b2b5d80de2ff65983b67b4f1f338dc8",
+      "kind": "orientation",
+      "orientation": 6,
+      "codedWidth": 8,
+      "codedHeight": 5,
+      "codedRgbaSha256": "b5820b84481c9b61cf7df0419afa63b36c0d2c38fd79dd5f598a571a56c2087d"
+    },
+    {
+      "file": "samples/orient-8-rotate-270.avif",
+      "bytes": 577,
+      "sha256": "32266f30200ca654469ce3216f9968dffaf9d32782787b2fa9fb3b7fd985a6a4",
+      "kind": "orientation",
+      "orientation": 8,
+      "codedWidth": 8,
+      "codedHeight": 5,
+      "codedRgbaSha256": "b5820b84481c9b61cf7df0419afa63b36c0d2c38fd79dd5f598a571a56c2087d"
+    },
+    {
+      "file": "samples/colour-bt2020-reject.avif",
+      "bytes": 593,
+      "sha256": "e30bce5b144f0fd4321aed3efdb60ec0909388e648ada0a5182a76e56b46b755",
+      "kind": "colour-reject",
+      "cicp": [
+        9,
+        16,
+        9
+      ],
+      "expectedErrorCode": "AVIF_COLOUR_SPACE_UNSUPPORTED",
+      "width": 6,
+      "height": 6
+    },
+    {
+      "file": "samples/dimension-conflict.avif",
+      "bytes": 614,
+      "sha256": "458f81157f3d239b796512e93317307e3ba62446a5a626803357e439863f05ec",
+      "kind": "dimension-reject",
+      "expectedErrorCode": "AVIF_DIMENSION_MISMATCH"
+    },
+    {
+      "file": "samples/animated-sequence.avif",
+      "bytes": 663,
+      "sha256": "de4db4f4386f9b2a83422220050926cd9021cffad48df89423dd176566afb3a1",
+      "kind": "animation-reject",
+      "expectedErrorCode": "AVIF_ANIMATION_UNSUPPORTED"
+    },
+    {
+      "file": "samples/corrupt-truncated.avif",
+      "bytes": 258,
+      "sha256": "c7930d47640c19398f5d2c6c7ac3781e46bb5da4d659d19e7bcdd295d09727d2",
+      "kind": "corrupt",
+      "expectedErrorCode": "AVIF_TRUNCATED_BOX"
+    },
+    {
+      "file": "samples/corrupt-byteflip.avif",
+      "bytes": 516,
+      "sha256": "d795a4c4973cac641d3068971fc84c2c388efdc52187b1d32290db26abe9251f",
+      "kind": "corrupt",
+      "note": "structure parses; WASM AV1 decode must reject"
+    },
+    {
+      "file": "samples/corrupt-ftyp-only.avif",
+      "bytes": 28,
+      "sha256": "d7be7b8cec8fd9f0844ee1c91ca108339142810e6c2a92cb71f54d908e1e7a3a",
+      "kind": "corrupt",
+      "expectedErrorCode": "AVIF_INVALID_BOX"
+    },
+    {
+      "file": "samples/corrupt-not-avif.png",
+      "bytes": 12,
+      "sha256": "218ad85a233eff829618a6865ab681222b734c62d35a32b3eabd5c37d8945f86",
+      "kind": "corrupt",
+      "expectedErrorCode": "AVIF_NOT_AVIF"
+    },
+    {
+      "file": "samples/oversized-ispe.avif",
+      "bytes": 516,
+      "sha256": "52ee90382feaa6a1548ec0316ce1f441943d0fefa9efb616007cedbbec6b0a1e",
+      "kind": "dimension-reject",
+      "expectedErrorCode": "AVIF_DIMENSION_UNSUPPORTED"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "avif-fallback",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AVIF decode fallback pipeline: capability probe, ISOBMFF validation, deterministic pixel pipeline, cache, HTTP service and acceptance suite",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./errors": "./src/errors.js",
+    "./capability": "./src/capability.js",
+    "./isobmff": "./src/isobmff.js",
+    "./pipeline": "./src/pipeline.js",
+    "./cache": "./src/cache.js",
+    "./service": "./src/service.js"
+  },
+  "scripts": {
+    "samples": "node tools/generate-samples.mjs",
+    "test": "node --test --test-force-exit test/*.test.mjs",
+    "acceptance": "node tools/acceptance.mjs",
+    "start": "node src/service.js"
+  },
+  "dependencies": {
+    "@jsquash/avif": "2.1.1"
+  },
+  "license": "Apache-2.0"
+}
